@@ -1,2 +1,3 @@
-# event-sourcing-kafka-poc
+# Event Sourcing PoC with Kafka
+
 A simple event sourcing PoC application using Kafka.

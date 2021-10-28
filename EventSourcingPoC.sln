@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kafka", "Kafka", "{AC17DAE6-75C2-4171-B1DD-B1A902797893}"
+ProjectSection(SolutionItems) = preProject
+	Kafka\docker-compose.yml = Kafka\docker-compose.yml
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{BCDCB384-3EF4-490A-B3A2-B1B7F440BBFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{0BE3084F-6760-4735-AFF6-39519E1E9758}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCDCB384-3EF4-490A-B3A2-B1B7F440BBFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCDCB384-3EF4-490A-B3A2-B1B7F440BBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCDCB384-3EF4-490A-B3A2-B1B7F440BBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCDCB384-3EF4-490A-B3A2-B1B7F440BBFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BE3084F-6760-4735-AFF6-39519E1E9758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE3084F-6760-4735-AFF6-39519E1E9758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE3084F-6760-4735-AFF6-39519E1E9758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE3084F-6760-4735-AFF6-39519E1E9758}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
